@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table{
+        display:flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        overflow-x: auto;
+        overflow-y: hidden;
+        }
+
+    
+</style>
+<body>
+    
+    <table>
+        <tr>
+        {% for i in BikeMap.정류장번호 %}
+        <td>{{i}}</td>
+        {% endfor %}
+        </tr>
+
+        <tr>
+            {% for i in BikeMap.정류장이름 %}
+            <td>{{i}}</td>
+            {% endfor %}
+        </tr>
+            
+    </table>
+</body>
+
+
+</html>

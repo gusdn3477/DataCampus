@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box{
+        display : inline-block;
+        width : 400px;
+        height : 600px;
+        border : 1px solid black;
+    }
+
+    .outer{
+        margin-left : 120px;
+        margin-right : 120px;
+        margin-top : 70px;
+    }
+</style>
+<body>
+
+    <div class="outer">
+        <div class="box">
+            1. 내 주변 따릉이 정류소 정보 얻기
+
+            내가 검색한 주소를 기준으로 반경 750m 안의 따릉이 정류소를 검색합니다.<br/>
+
+        </div>
+
+        <div class="box">
+            2. 따릉이용 네비게이션 서비스
+
+            상용화된 서비스와 거의 유사한 길찾기 서비스를 제공합니다.
+        </div>
+
+        <div class="box">
+            3. 원리가 궁금해요!
+
+            - KAKAO MAP API를 통하여 입력받은 주소를 위도, 경도로 반환받습니다.
+            - OSMNX 모듈을 통하여 서울시 자전거 길의 정보를 다운받은 뒤, 가장 가까운 노드를 찾습니다.
+        </div>
+
+        
+    </div>
+
+</body>
+</html>

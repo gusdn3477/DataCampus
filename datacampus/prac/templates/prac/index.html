@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <body>
 
-    <form method="post" action="/prac/getLatLng/">
-        {% csrf_token %}
-        출발지 <input type="text" name="departure">
-        도착지 <input type="text" name="destination">
-        <br/>
-        <button type="submit">검색</button>
-    </form>
+    <div id="loading">
+        <img SRC="https://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile1.uf.tistory.com%2Fimage%2F9950163C5AFE32810A7310">    
+    </div>
+    <div><a href=/prac/about>따릉이 정류소 위치 확인</a></div>
+    <div><a href=/prac/homepage>따릉이 포함 길찾기</a></div>
     
+    <button onclick="loading_st()">하하</button>
 </body>
+
+<script>
+    
+    $(function(){
+        $("#loading").css("visibility","hidden");
+    });
+</script>
 </html>
