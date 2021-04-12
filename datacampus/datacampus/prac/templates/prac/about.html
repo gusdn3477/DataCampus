@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5d57cc273e444248b3dfa2aa43e32007 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5d57cc273e444248b3dfa2aa43e32007" ></div>
+        
+</body>
+<script>    
+    
+            var map_5d57cc273e444248b3dfa2aa43e32007 = L.map(
+                "map_5d57cc273e444248b3dfa2aa43e32007",
+                {
+                    center: [37.551920581618205, 127.0735094176659],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4873a341a9b431a97e14ced7ef8a347 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var marker_d70b46a41de042b191529c4b22e9ba98 = L.marker(
+                [37.54706955, 127.07427216],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_5daf62f84b9e40828683cfc24573fa1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d70b46a41de042b191529c4b22e9ba98.setIcon(icon_5daf62f84b9e40828683cfc24573fa1f);
+        
+    
+        var popup_da7b563244cb4b378de7bb5371bf7fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9b15373f1d14a36b967c2517ced219b = $(`<div id="html_e9b15373f1d14a36b967c2517ced219b" style="width: 100.0%; height: 100.0%;"> 어린이대공원역 3번출구 앞</div>`)[0];
+            popup_da7b563244cb4b378de7bb5371bf7fc2.setContent(html_e9b15373f1d14a36b967c2517ced219b);
+        
+
+        marker_d70b46a41de042b191529c4b22e9ba98.bindPopup(popup_da7b563244cb4b378de7bb5371bf7fc2)
+        ;
+
+        
+    
+    
+            var marker_c8fb429aa70343bba70d1f8fb28b509a = L.marker(
+                [37.54840469, 127.06936646],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_e367612ecfb1441b8730df211bf0c84f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8fb429aa70343bba70d1f8fb28b509a.setIcon(icon_e367612ecfb1441b8730df211bf0c84f);
+        
+    
+        var popup_c07ea33941df466ba120b8c3d49fb468 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28ef3e1104d24468b58d4a2d3ef2de7f = $(`<div id="html_28ef3e1104d24468b58d4a2d3ef2de7f" style="width: 100.0%; height: 100.0%;"> 광진메디칼 앞</div>`)[0];
+            popup_c07ea33941df466ba120b8c3d49fb468.setContent(html_28ef3e1104d24468b58d4a2d3ef2de7f);
+        
+
+        marker_c8fb429aa70343bba70d1f8fb28b509a.bindPopup(popup_c07ea33941df466ba120b8c3d49fb468)
+        ;
+
+        
+    
+    
+            var marker_1ebc4ada7f544ca4b371751a45706864 = L.marker(
+                [37.55603027, 127.0786438],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_c112d7f53b4c4579b587a7011fb4b6bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ebc4ada7f544ca4b371751a45706864.setIcon(icon_c112d7f53b4c4579b587a7011fb4b6bb);
+        
+    
+        var popup_459abac467d944168c82c85881ab67ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6712443ef9504eceb511f1751909d402 = $(`<div id="html_6712443ef9504eceb511f1751909d402" style="width: 100.0%; height: 100.0%;"> 군자역 7번출구 베스트샵 앞</div>`)[0];
+            popup_459abac467d944168c82c85881ab67ab.setContent(html_6712443ef9504eceb511f1751909d402);
+        
+
+        marker_1ebc4ada7f544ca4b371751a45706864.bindPopup(popup_459abac467d944168c82c85881ab67ab)
+        ;
+
+        
+    
+    
+            var marker_9c339b22cd2b4e959b95f8558d72fdcb = L.marker(
+                [37.55120468, 127.06893158],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_706ca579e48f4363b4ee4e220bbe6852 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c339b22cd2b4e959b95f8558d72fdcb.setIcon(icon_706ca579e48f4363b4ee4e220bbe6852);
+        
+    
+        var popup_24f8602007d1400d960d5fca237d73b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69154ac03397497ab9ff170d252cfb98 = $(`<div id="html_69154ac03397497ab9ff170d252cfb98" style="width: 100.0%; height: 100.0%;"> 비전교회 앞</div>`)[0];
+            popup_24f8602007d1400d960d5fca237d73b4.setContent(html_69154ac03397497ab9ff170d252cfb98);
+        
+
+        marker_9c339b22cd2b4e959b95f8558d72fdcb.bindPopup(popup_24f8602007d1400d960d5fca237d73b4)
+        ;
+
+        
+    
+    
+            var marker_d1e45f0764164d3cb2557447e1c7c298 = L.marker(
+                [37.54849625, 127.07476044],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_828966d89ea8430bb35763d96c2b0fb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1e45f0764164d3cb2557447e1c7c298.setIcon(icon_828966d89ea8430bb35763d96c2b0fb0);
+        
+    
+        var popup_72cab6362b234aa49628eb9d3908c681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35f0c24e8e01474fadc571adaeabd22f = $(`<div id="html_35f0c24e8e01474fadc571adaeabd22f" style="width: 100.0%; height: 100.0%;"> 어린이대공원역6번출구</div>`)[0];
+            popup_72cab6362b234aa49628eb9d3908c681.setContent(html_35f0c24e8e01474fadc571adaeabd22f);
+        
+
+        marker_d1e45f0764164d3cb2557447e1c7c298.bindPopup(popup_72cab6362b234aa49628eb9d3908c681)
+        ;
+
+        
+    
+    
+            var marker_6c647fc48805495f8ce8959c7dbd2a70 = L.marker(
+                [37.54782867, 127.07263184],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_8d4a338a4fd64e2da516a29ab4a225e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c647fc48805495f8ce8959c7dbd2a70.setIcon(icon_8d4a338a4fd64e2da516a29ab4a225e9);
+        
+    
+        var popup_1b0d35f1c17a4ccfa36fbdb424b9b27a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_941849493ef54c2ea1d8a5ab0462fe9c = $(`<div id="html_941849493ef54c2ea1d8a5ab0462fe9c" style="width: 100.0%; height: 100.0%;"> 광진광장 교통섬</div>`)[0];
+            popup_1b0d35f1c17a4ccfa36fbdb424b9b27a.setContent(html_941849493ef54c2ea1d8a5ab0462fe9c);
+        
+
+        marker_6c647fc48805495f8ce8959c7dbd2a70.bindPopup(popup_1b0d35f1c17a4ccfa36fbdb424b9b27a)
+        ;
+
+        
+    
+    
+            var marker_669ec53d527e4e0aa7ef105cb50e880f = L.marker(
+                [37.54822159, 127.06787872],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_4238d5e88bc0446586b2405770ec1367 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_669ec53d527e4e0aa7ef105cb50e880f.setIcon(icon_4238d5e88bc0446586b2405770ec1367);
+        
+    
+        var popup_6ad9e4040cf3488f85f1ad1312f75a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c548db2e0b7940e58478ba1d1f8dbf9a = $(`<div id="html_c548db2e0b7940e58478ba1d1f8dbf9a" style="width: 100.0%; height: 100.0%;"> 화양사거리</div>`)[0];
+            popup_6ad9e4040cf3488f85f1ad1312f75a62.setContent(html_c548db2e0b7940e58478ba1d1f8dbf9a);
+        
+
+        marker_669ec53d527e4e0aa7ef105cb50e880f.bindPopup(popup_6ad9e4040cf3488f85f1ad1312f75a62)
+        ;
+
+        
+    
+    
+            var marker_f684b5828a574675821792772e363492 = L.marker(
+                [37.55341721, 127.07319641],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_d6b9f072f2dc462988005cbc37911bac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f684b5828a574675821792772e363492.setIcon(icon_d6b9f072f2dc462988005cbc37911bac);
+        
+    
+        var popup_d42fe6301fe841f4b84dc17ad059e23a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fa83e00bf694d15833b53545b8a43d1 = $(`<div id="html_8fa83e00bf694d15833b53545b8a43d1" style="width: 100.0%; height: 100.0%;"> 세종사이버대학교</div>`)[0];
+            popup_d42fe6301fe841f4b84dc17ad059e23a.setContent(html_8fa83e00bf694d15833b53545b8a43d1);
+        
+
+        marker_f684b5828a574675821792772e363492.bindPopup(popup_d42fe6301fe841f4b84dc17ad059e23a)
+        ;
+
+        
+    
+    
+            var marker_2a96af4751404640be4d201543920b0a = L.marker(
+                [37.55686188, 127.07913971],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_00345d661dfc4865bbb45c69f2938c7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a96af4751404640be4d201543920b0a.setIcon(icon_00345d661dfc4865bbb45c69f2938c7c);
+        
+    
+        var popup_41d9eb5077f74a73be09452c6193a7ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_037264190844423996670071dbd37f40 = $(`<div id="html_037264190844423996670071dbd37f40" style="width: 100.0%; height: 100.0%;"> 군자역 7번출구뒤</div>`)[0];
+            popup_41d9eb5077f74a73be09452c6193a7ab.setContent(html_037264190844423996670071dbd37f40);
+        
+
+        marker_2a96af4751404640be4d201543920b0a.bindPopup(popup_41d9eb5077f74a73be09452c6193a7ab)
+        ;
+
+        
+    
+    
+            var marker_e8434e5f5f0840a998f7e5a585d14a9f = L.marker(
+                [37.55023575, 127.07382202],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_1aa3294c21ca4523b0ddd2e2c85b4085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8434e5f5f0840a998f7e5a585d14a9f.setIcon(icon_1aa3294c21ca4523b0ddd2e2c85b4085);
+        
+    
+        var popup_29fe1c80d708488fa7abb0ee5d0141ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a1c22a245cf4cfdaa7b887c474c5267 = $(`<div id="html_5a1c22a245cf4cfdaa7b887c474c5267" style="width: 100.0%; height: 100.0%;"> 세종대학교</div>`)[0];
+            popup_29fe1c80d708488fa7abb0ee5d0141ff.setContent(html_5a1c22a245cf4cfdaa7b887c474c5267);
+        
+
+        marker_e8434e5f5f0840a998f7e5a585d14a9f.bindPopup(popup_29fe1c80d708488fa7abb0ee5d0141ff)
+        ;
+
+        
+    
+    
+            var marker_128b527fbc484dbaa7ad61e6e15893d6 = L.marker(
+                [37.54978943, 127.07592773],
+                {}
+            ).addTo(map_5d57cc273e444248b3dfa2aa43e32007);
+        
+    
+            var icon_4025af70f6594beab1cce51c550bf916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_128b527fbc484dbaa7ad61e6e15893d6.setIcon(icon_4025af70f6594beab1cce51c550bf916);
+        
+    
+        var popup_e5cf69b534504d72a8b221066d36b9fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2c8298e86c14d7b97458cf423fd2bd2 = $(`<div id="html_f2c8298e86c14d7b97458cf423fd2bd2" style="width: 100.0%; height: 100.0%;"> 어린이대공원정문</div>`)[0];
+            popup_e5cf69b534504d72a8b221066d36b9fe.setContent(html_f2c8298e86c14d7b97458cf423fd2bd2);
+        
+
+        marker_128b527fbc484dbaa7ad61e6e15893d6.bindPopup(popup_e5cf69b534504d72a8b221066d36b9fe)
+        ;
+
+        
+    
+</script>
