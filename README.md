@@ -23,3 +23,10 @@
 
 `HTML5` `CSS3` `Bootstrap` `Kakao REST API` `Google Elevation API` `OSMNX` `Folium`
 
+
+👨‍💻 **사용법**  
+
+아래는 osmnx를 설치하기 위한 가상환경 설치법입니다.  
+`conda config --prepend channels conda-forge`  
+`conda create -n ox --strict-channel-priority osmnx`  
+가상환경 설치 후, 가상환경 안에서 django를 설치 후, 실행시키시면 됩니다.
